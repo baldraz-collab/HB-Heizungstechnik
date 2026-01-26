@@ -1,10 +1,10 @@
 # Site settings
-title: Härdle Baden Heizungstechnik
+title: HB Heizungstechnik
 email: your-email@domain.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Wärmepumpen - Festbrennstoffkessel - Klimaanlagen"
+skills: "Sanitär - Heizung - Klima"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -27,7 +27,7 @@ disqus_shortname: myshortname
 color:
   primary: B22222 #80B3FF
   primary-rgb: "178,34,34" #"178	034	034	"
-  secondary: 000000 #FD6E8A
+  secondary: FD6E8A #FD6E8A
   secondary-dark: 1a1a1a #A2122F
 
 # Footer settings
