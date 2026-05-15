@@ -511,7 +511,8 @@ footer .footer-below {
 
 .custom-carousel-caption p {
     font-style: italic;
-    color: #000; /* schwarz */
-    font-size: 1.1em;
+    color: #ffffff; 
+    font-size: 1.8em; /* Hier ist die Änderung */
     margin: 0;
+    font-weight: bold; /* Optional: Falls du die Schrift auch fetter haben willst */
 }
