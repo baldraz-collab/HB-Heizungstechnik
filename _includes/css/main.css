@@ -500,3 +500,18 @@ footer .footer-below {
     opacity: 1;
     color: #B22222 !important;
 }
+
+.custom-carousel-caption {
+    padding: 10px;
+    background-color: #1a1a1a; /* Gleiche Farbe wie dein Modal-Hintergrund */
+    border-top: 1px solid #333; /* Dezente Trennlinie zum Bild */
+    min-height: 50px; /* Verhindert das Springen der Höhe bei unterschiedlichen Textlängen */
+}
+
+
+.custom-carousel-caption p {
+    font-style: italic;
+    color: #000; /* schwarz */
+    font-size: 1.1em;
+    margin: 0;
+}
