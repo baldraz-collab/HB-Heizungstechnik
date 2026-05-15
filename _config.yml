@@ -54,11 +54,11 @@ social:
 address:
   - line: Weitenberg 3
   - line: 76646, Bruchsal
-  - Line: Tel. +49 179 1098735
+  - Line: Tel +49 179 1098735
   - line: Info@HB-Heizungstechnik.com
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Alexander Härdle und Tim Baden Heizungstechnik GbR'
 
 # Build settings
 markdown: kramdown
