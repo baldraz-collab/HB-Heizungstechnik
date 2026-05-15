@@ -11,12 +11,12 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 5_bad.png 
-    caption: Wie sieht das aus?   # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Wie sieht das aus?"   # Meistens will man das Hauptbild auch in der Galerie haben
   - image: blau.png
-    captiion: funktioniert das so einfach?
+    captiion: "funktioniert das so einfach?"
   - image: grün.png
-    caption: prorammieren ist einfach
+    caption: "prorammieren ist einfach"
   - image: rot.png
-    caption: ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird
+    caption: "ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird"
 description: Die Qualität einer guten Installation zeigt sich da, wo man sie später nicht mehr sieht. Wir übernehmen die fachgerechte, maßgenaue und normgerechte Verlegung aller Trinkwasser-, Abwasser- und Heizungsleitungen. Die perfekte, langlebige Basis für Ihren Neubau oder Ihre Kernsanierung.
 ---
