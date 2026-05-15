@@ -14,5 +14,5 @@ album:
   - image: blau.png
   - image: grün.png
   - image: rot.png
-description: Wir verwandeln Ihr in die Jahre gekommenes Badezimmer in einen modernen Rückzugsort. Ob clevere Teilsanierung, fugenloses Design, barrierefreier Umbau oder luxuriöses Komplettbad: Wir begleiten Ihr Projekt von der ersten 3D-Planung bis zur sauberen, staubarmen Endmontage – alles aus einer Hand.
+description: Wir verwandeln Ihr in die Jahre gekommenes Badezimmer in einen modernen Rückzugsort. Ob clevere Teilsanierung, fugenloses Design, barrierefreier Umbau oder luxuriöses Komplettbad
 ---
