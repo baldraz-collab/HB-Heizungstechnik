@@ -14,5 +14,5 @@ album:
   - image: blau.png
   - image: grün.png
   - image: rot.png
-description: Hier steht deine Projektbeschreibung...
+description: Unsere modernen Split-Klimaanlagen sind energieeffizient und fügen sich dezent in jeden Raum ein, damit Sie im Hochsommer angenehme Kühle geniesen können. – ein echtes Plus für Lebensqualität.
 ---

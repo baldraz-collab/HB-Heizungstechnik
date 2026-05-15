@@ -14,5 +14,5 @@ album:
   - image: blau.png
   - image: grün.png
   - image: rot.png
-description: Hier steht deine Projektbeschreibung...
+description: Schützen Sie Ihre teuren Haushaltsgeräte, Rohrleitungen und edlen Armaturen effektiv vor Kalk. Mit einer professionellen Wasserenthärtungsanlage genießen Sie spürbar weicheres Wasser. Das schont nicht nur die Technik, sondern pflegt auch Haut und Haare beim Duschen und spart Reinigungsmittel.
 ---

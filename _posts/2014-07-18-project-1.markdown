@@ -14,5 +14,5 @@ album:
   - image: blau.png
   - image: grün.png
   - image: rot.png
-description: ABCDEFGHIJKLMNOPQRSTUV WQYZABCDEFGHIJ KLMNOPQRSTUVWQYZAB CDEFGHIJKLMNOPQRSTUVWQYZABCDEFGHIJKLMNOPQRSTUV WQYZABCDE FGHIJKLMNOPQRSTU VWQYZABCDEFGHIJKLMNOP QRSTUVWQYZABCDEFGHI JKLMNOPQRSTUVWQYZ ABCDEFGHIJKLMNOPQRSTUVWQYZ ABCDEFGHIJKLMNOPQRSTUVWQYZ ABCDEFGHIJKLMNOPQRSTUVWQYZ ABCDEFGHIJKLMNOPQRSTUVWQYZ
+description: Mit einer modernen Wärmepumpe heizen Sie umweltfreundlich, hocheffizient und zukunftssicher. Wir bieten Ihnen maßgeschneiderte Systeme für Neubau und Sanierung – flüsterleise im Betrieb und bereit für attraktive staatliche Förderungen.
 ---

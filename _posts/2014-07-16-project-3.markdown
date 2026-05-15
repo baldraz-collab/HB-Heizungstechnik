@@ -14,5 +14,5 @@ album:
   - image: blau.png
   - image: grün.png
   - image: rot.png
-description: Hier steht deine Projektbeschreibung...
+description: Kombinieren Sie den Komfort einer vollautomatischen Zentralheizung mit dem nachwachsenden Rohstoff Holz. Eine moderne Pelletheizung ist CO2-neutral und senkt Ihre Heizkosten spürbar. Die ideale, leistungsstarke Lösung für Bestandsgebäude und die umweltbewusste Altbausanierung.
 ---
