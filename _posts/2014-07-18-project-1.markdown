@@ -4,6 +4,7 @@ modal-id: 1
 date: 2014-07-18
 img: 1_wp.png          # Das bleibt das Vorschaubild für die 6er-Übersicht
 alt: image-alt
+title: Wärmepumpen-Installation
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
