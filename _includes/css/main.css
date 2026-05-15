@@ -425,6 +425,9 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    /* --- HIER ERGÄNZT --- */
+    background-color: #1a1a1a; 
+    color: white;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -446,7 +449,7 @@ footer .footer-below {
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: #000;
+    background-color: transparent; /* von #000 auf transparent geändert */
     cursor: pointer;
 }
 
@@ -459,7 +462,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #B22222; /* Hier dein Rot eintragen */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -469,7 +472,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #B22222; /* Hier ebenfalls dein Rot eintragen */;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -484,4 +487,16 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+```css
+/* Galerie Pfeile im schwarzen Modal weiß oder rot leuchten lassen */
+.carousel-control {
+    text-shadow: none;
+    opacity: 0.8;
+}
+
+.carousel-control:hover {
+    opacity: 1;
+    color: #B22222 !important;
 }
