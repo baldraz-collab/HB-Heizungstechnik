@@ -1,11 +1,11 @@
 # Site settings
 title: HB Heizungstechnik
-email: your-email@domain.com
+email: info@hb-heizungstechnik.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "Heizungsbauer, Heizung, Reperatur, Heizungstausch, Bad, Badumbau, Bruchsal, Eppingen, Wärmepumpe, Pelles, Kessel, Klimaanlage"
+description: "Handwerker für Heizung, Sanitär und Klimaanlagen in Bruchsal und Eppingen"
+keywords: "Heizungsbauer, Heizung, Reperatur, Heizungstausch, Bad, Badumbau, Bruchsal, Eppingen, Wärmepumpe, Pelles, Kessel, Klimaana"
 skills: "Sanitär - Heizung - Klima"
-meta_author: LastName FirstName
+meta_author: Härdle Alexander
 
 # Google webmaster tools
 google_verify:
