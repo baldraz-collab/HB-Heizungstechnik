@@ -22,6 +22,14 @@
     {% for item in post.album %}
     <div class="item {% if forloop.first %}active{% endif %}">
       <img src="img/portfolio/{{ item.image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+      
+      {% if item.caption %}
+      <div class="custom-carousel-caption" style="padding: 20px 0; min-height: 60px;">
+        <p style="font-style: italic; color: #B22222; font-size: 1.1em;">
+          {{ item.caption }}
+        </p>
+      </div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
