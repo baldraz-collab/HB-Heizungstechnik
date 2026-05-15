@@ -4,6 +4,7 @@ modal-id: 5
 date: 2014-07-14
 img: 6_solar.png
 alt: image-alt
+title: Solanlagen Installation/Wartung
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
