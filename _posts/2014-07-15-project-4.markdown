@@ -11,8 +11,15 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 4_Enthartung.png    # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Enthärtungsanlage (Ionenaustausch)
+              Schützen Sie Rohrleitungen und hochwertige Armaturen zuverlässig vor hartnäckigem Kalk. Genießen Sie seidenweiches Wasser, das Ihre Haushaltsgeräte schont und den Reinigungsaufwand spürbar minimiert."
   - image: blau.png
+    caption: "Entsalzung (Heizungswasseraufbereitung)
+              Sichern Sie sich die volle Garantie und maximale Effizienz Ihrer neuen Heizungsanlage. Vollentsalztes Füllwasser verhindert Korrosion und schädliche Ablagerungen in sensiblen Bauteilen und Fußbodenheizungen."
   - image: grün.png
+    caption: "Umkehrosmose
+              Reinste, unverfälschte Trinkwasserqualität direkt aus Ihrem Wasserhahn. Diese hochfeine Membrantechnologie filtert Rückstände, Schwermetalle und Verunreinigungen nahezu restlos aus dem Leitungswasser."
   - image: rot.png
-description: Schützen Sie Ihre teuren Haushaltsgeräte, Rohrleitungen und edlen Armaturen effektiv vor Kalk. Mit einer professionellen Wasserenthärtungsanlage genießen Sie spürbar weicheres Wasser. Das schont nicht nur die Technik, sondern pflegt auch Haut und Haare beim Duschen und spart Reinigungsmittel.
+    caption: "Physikalischer Kalkschutz (Magnet-/Impulsverfahren)
+              Die clevere, chemie- und salzfreie Alternative für Ihre Hausinstallation. Wertvolle Mineralien bleiben im Trinkwasser erhalten, während sich der Kalk nicht mehr an Rohren und Heizstäben festsetzen kann."
 ---

@@ -11,8 +11,12 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 2_Klima.png    # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Wie sieht das aus?
   - image: blau.png
+    caption: "Wie sieht das aus?
   - image: grün.png
+    caption: "Wie sieht das aus?
   - image: rot.png
-description: Unsere modernen Split-Klimaanlagen sind energieeffizient und fügen sich dezent in jeden Raum ein, damit Sie im Hochsommer angenehme Kühle geniesen können. – ein echtes Plus für Lebensqualität.
+    caption: "Wie sieht das aus?
+
 ---

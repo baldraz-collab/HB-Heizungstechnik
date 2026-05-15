@@ -11,8 +11,12 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 6_solar.png    # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Wie sieht das aus?
   - image: blau.png
+    caption: "Wie sieht das aus?
   - image: grün.png
+    caption: "Wie sieht das aus?
   - image: rot.png
-description: Wir verwandeln Ihr in die Jahre gekommenes Badezimmer in einen modernen Rückzugsort. Ob clevere Teilsanierung, fugenloses Design, barrierefreier Umbau oder luxuriöses Komplettbad
+    caption: "Wie sieht das aus?
+
 ---

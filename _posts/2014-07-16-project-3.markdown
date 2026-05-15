@@ -11,8 +11,20 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 3_pellets.png    # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Pelletkessel
+              Vollautomatischer Heizkomfort trifft auf maximale Nachhaltigkeit. Die perfekte, stark staatlich geförderte Lösung für klimaneutrales Heizen ohne täglichen Aufwand."
   - image: blau.png
+    caption: "Holzvergaserkessel (Scheitholz)
+              Heizen Sie kostengünstig, unabhängig und extrem effizient mit klassischem Stückholz. Moderne Vergasungstechnik holt das Maximum an Energie aus jedem Holzscheit heraus."
   - image: grün.png
+    caption: "Kombi-Kessel (Pellet & Scheitholz)
+              Die maximale Flexibilität aus zwei Welten: Heizen Sie preiswert mit Stückholz oder wechseln Sie nahtlos auf den automatischen, bequemen Betrieb mit Pellets."
   - image: rot.png
-description: Kombinieren Sie den Komfort einer vollautomatischen Zentralheizung mit dem nachwachsenden Rohstoff Holz. Eine moderne Pelletheizung ist CO2-neutral und senkt Ihre Heizkosten spürbar. Die ideale, leistungsstarke Lösung für Bestandsgebäude und die umweltbewusste Altbausanierung.
+    caption: "Kaminofen (Scheitholz)
+              Der zeitlose Klassiker für gemütliche Strahlungswärme und ein authentisches Holzfeuer-Knistern im Wohnraum. Ursprüngliches Heizen und eine ideale Zusatzwärme."
+  - image: rosa.png
+    caption: "Pellet-Kaminofen
+              Sichtbares Feuer-Ambiente für den Wohnbereich, clever kombiniert mit smarter Technik. Genießen Sie langanhaltende Wärme und vollautomatische Steuerung bequem auf Knopfdruck."
+
+
 ---
