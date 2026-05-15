@@ -25,10 +25,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: B22222 #80B3FF
-  primary-rgb: "178,34,34" #"178	034	034	"
-  secondary: 232c3f #FD6E8A
-  secondary-dark: 1a1a1a #A2122F
+  primary: 1a1a1a             # Vorher secondary-dark (Schwarz)
+  primary-rgb: "26,26,26"     # RGB-Wert für 1a1a1a
+  secondary: B22222           # Vorher primary (Rot)
+  secondary-dark: B22222      # Auch hier Rot, damit dunkle Flächen nun rot leuchten
 
 # Footer settings
 footer:
