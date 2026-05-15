@@ -2,10 +2,16 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: 1_wp.png
+img: 1_wp.png          # Das bleibt das Vorschaubild für die 6er-Übersicht
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+# Hier fügst du die Galeriebilder hinzu:
+album:
+  - image: 1_wp.png    # Meistens will man das Hauptbild auch in der Galerie haben
+  - image: blau.png
+  - image: grün.png
+  - image: rot.png
+description: Hier steht deine Projektbeschreibung...
 ---
