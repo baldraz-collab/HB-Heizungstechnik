@@ -11,13 +11,14 @@ category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 5_bad.png 
-    caption: "High End & Luxusbad
-              Verwandeln Sie Ihr Badezimmer in eine exklusive Wellness-Oase. Edle Materialien, smarte Haustechnik und meisterhaftes Design für kompromisslose Ansprüche."   # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Luxusbad:
+              Verwandeln Sie Ihr Badezimmer mit unserer Hilfe in eine exklusive Wellness-Oase. Edle Materialien, smarte Haustechnik und meisterhaftes Design für kompromisslose Ansprüche." 
+              
   - image: blau.png
-    caption: "Seniorengerecht & Barrierefrei 
-              Maximaler Komfort und Sicherheit für jedes Alter. Wir realisieren bodengleiche Duschen und durchdachte Raumkonzepte für ein selbstbestimmtes Leben – ganz ohne Stolperfallen."
+    caption: "Seniorengerecht oder Barrierefrei:
+              Komfortabel und Sicher auch im Alter. Wir helfen Ihnen mit durchdachten Raumkonzepten Ihr Bad um zu gestalten für ein selbstbestimmtes Leben ganz ohne Stolperfallen. Bodengleiche Duschen, Stützen, ausreichende Bewegungsflächen und Hygiene-WCs."
   - image: grün.png
-    caption: "Teilsanierung & Bad-Update
+    caption: "Teilsanierung:
               Frischer Wind ohne Komplettbaustelle: Vom schnellen Tausch der Badewanne zur begehbaren Dusche bis hin zu neuen Armaturen. Wir modernisieren Ihr Bad gezielt, zügig und staubarm."
   - image: rot.png
     caption: "ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird"
