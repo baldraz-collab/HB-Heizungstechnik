@@ -12,18 +12,23 @@ category: Web Development
 album:
   - image: 3_pellets.png    # Meistens will man das Hauptbild auch in der Galerie haben
     caption: "Pelletkessel
+
               Vollautomatischer Heizkomfort mit dem nachhaltigen Rohstoff Holz. Pellets werden aus den Abfällen der Sägewerke hergestellt und sind damit eine erneuerbare staatlich geförderte Lösung für das Heizen mit Holz ohne täglichen Aufwand."
   - image: blau.png
     caption: "Holzvergaserkessel:
+
               Heizen Sie kostengünstig, unabhängig und extrem effizient mit Stückholz und holen sie mit moderner Holzvergasungstechnik das Maximum an Energie aus jedem Holzscheit heraus. Über Pufferspeicher kann die Energie für ein oder mehrere Tage auf vorrat gehalten werden."
   - image: grün.png
     caption: "Kombi-Kessel:
+
               Pellet & Scheitholz kombiniert für Flexibilität: Heizen Sie preiswert mit Stückholz oder wechseln Sie nahtlos auf den automatischen, bequemen Betrieb mit Pellets."
   - image: rot.png
     caption: "Kaminofen:
+
               Der zeitlose Klassiker für gemütliche Strahlungswärme und ein authentisches Holzfeuer-Knistern im Wohnraum. Ursprüngliches Heizen und eine ideale Zusatzwärme für Romantiker und Praktiker."
   - image: rosa.png
     caption: "Pellet-Kaminofen:
+    
               Sichtbares Feuer-Ambiente für den Wohnbereich, clever kombiniert mit smarter Technik. Genießen Sie langanhaltende Wärme und vollautomatische Steuerung bequem auf Knopfdruck."
 
 
