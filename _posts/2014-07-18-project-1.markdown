@@ -8,15 +8,15 @@ title: Wärmepumpen-Installation
 
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 1_wp_wärmepumpe_fertig_front (1).jpg    # Meistens will man das Hauptbild auch in der Galerie haben
+  - image: 1_wp_wärmepumpe_fertig_front (1).jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
     caption: "Luft-Wasser-Wärmepumpe:  
 
               Der unkomplizierte Allrounder für Neubau und Modernisierung. Nutzt die kostenlose Umgebungsluft als Energiequelle und lässt sich flexibel sowie platzsparend aufstellen."
-  - image: 1_wp_wärmepumpe_fertig_seite.jpg
+  - image: 1_wp_wärmepumpe_fertig_seite.jpeg
     caption: "Erdkollektor:  
 
               Höchste Effizienz durch konstante Erdwärme direkt aus Ihrem Garten. Die unsichtbar unter der Rasenfläche verlegten Rohrschleifen heizen Ihr Zuhause besonders stromsparend."
-  - image: 1_wp_wärmepumpe_fundament.jpg
+  - image: 1_wp_wärmepumpe_fundament.jpeg
     caption: "Sondenbohrung:  
 
               Maximale Leistung auf minimalem Raum durch die Nutzung tiefer Erdschichten. Diese Premium-Lösung liefert ganzjährig höchste Effizienz, selbst an den kältesten Wintertagen."
