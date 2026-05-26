@@ -16,10 +16,10 @@ album:
               
   - image: 6_Rohrinstallation.jpeg
     caption: " "
- # - image: grün.png
- #   caption: "Teilsanierung:
- #   
- #             Frischer Wind ohne Komplettbaustelle: Vom schnellen Tausch der Badewanne zur #begehbaren Dusche bis hin zu neuen Armaturen. Wir modernisieren Ihr Bad gezielt, zügig und #staubarm."
+  #- image: grün.png
+  #  caption: "Teilsanierung:
+    
+ #             Frischer Wind ohne Komplettbaustelle: Vom schnellen Tausch der Badewanne zur begehbaren Dusche bis hin zu neuen Armaturen. Wir modernisieren Ihr Bad gezielt, zügig und staubarm."
  # - image: rot.png
  #   caption: "ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird"
 

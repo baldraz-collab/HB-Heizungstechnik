@@ -10,11 +10,11 @@ alt: image-alt
 #category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 4_Wasserinstallation.jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
+  - image: 4_Wasserinstallation_ohne_titel.jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
 
     caption: "Enthärtungsanlage:
               Schützen Sie Rohrleitungen und Armaturen zuverlässig vor hartnäckigem Kalk. Genießen Sie seidenweiches Wasser, das Ihre Haushaltsgeräte schont und den Reinigungsaufwand spürbar minimiert."
-  - image: blau.png
+  - image: 4_wasserinstallation_vorher_nacher.jpeg
     caption: "Entsalzung:
 
               Sichern Sie sich die Langlebigkeit und Effizienz Ihrer neuen Heizungsanlage. Vollentsalztes Füllwasser verhindert Korrosion und schädliche Ablagerungen in sensiblen Bauteilen und Fußbodenheizungen."
