@@ -10,7 +10,7 @@ client: Start Bootstrap
 category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 5_bad.png 
+  - image: 6_Fußbodenheizung_vorher-nacher.jpg 
     caption: "Luxusbad:
 
               Verwandeln Sie Ihr Badezimmer mit unserer Hilfe in eine exklusive Wellness-Oase. Edle Materialien, smarte Haustechnik und meisterhaftes Design für kompromisslose Ansprüche." 
