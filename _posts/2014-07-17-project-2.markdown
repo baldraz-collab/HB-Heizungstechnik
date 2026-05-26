@@ -4,19 +4,19 @@ modal-id: 2
 date: 2014-07-17
 img: 2_Klima.png
 alt: image-alt
-title: Kilmaanlagen-Installation
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+title: " "
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 2_Klima.png    # Meistens will man das Hauptbild auch in der Galerie haben
     caption: "Wie sieht das aus?"
-  - image: blau.png
-    caption: "Wie sieht das aus?"
-  - image: grün.png
-    caption: "Wie sieht das aus?"
-  - image: rot.png
-    caption: "Wie sieht das aus?"
+#  - image: blau.png
+#    caption: "Wie sieht das aus?"
+#  - image: grün.png
+#    caption: "Wie sieht das aus?"
+#  - image: rot.png
+#    caption: "Wie sieht das aus?"
 
 ---

@@ -4,7 +4,7 @@ modal-id: 4
 date: 2014-07-15
 img: 4_Wasserinstallation.jpeg
 alt: image-alt
-#title: Enthärtunganlagen / Wasseraufbereitung
+title: " "
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
@@ -14,16 +14,16 @@ album:
 
     caption: "Enthärtungsanlage:
               Schützen Sie Rohrleitungen und Armaturen zuverlässig vor hartnäckigem Kalk. Genießen Sie seidenweiches Wasser, das Ihre Haushaltsgeräte schont und den Reinigungsaufwand spürbar minimiert."
-  - image: 4_wasserinstallation_vorher_nacher.jpeg
+  - image: 4_wasserinstallation_vorher_nacher.jpg
     caption: "Entsalzung:
 
               Sichern Sie sich die Langlebigkeit und Effizienz Ihrer neuen Heizungsanlage. Vollentsalztes Füllwasser verhindert Korrosion und schädliche Ablagerungen in sensiblen Bauteilen und Fußbodenheizungen."
-  - image: grün.png
-    caption: "Umkehrosmose:
+#  - image: grün.png
+ #   caption: "Umkehrosmose:
 
-              Reinste, unverfälschte Trinkwasserqualität direkt aus Ihrem Wasserhahn. Diese hochfeine Membrantechnologie filtert Rückstände, Schwermetalle und Verunreinigungen nahezu restlos aus dem Leitungswasser."
-  - image: rot.png
-    caption: "Physikalischer Kalkschutz:
+ #             Reinste, unverfälschte Trinkwasserqualität direkt aus Ihrem Wasserhahn. Diese hochfeine Membrantechnologie filtert Rückstände, Schwermetalle und Verunreinigungen nahezu restlos aus dem Leitungswasser."
+ # - image: rot.png
+ #   caption: "Physikalischer Kalkschutz:
 
-              Die clevere, chemie- und salzfreie Alternative für Ihre Hausinstallation. Wertvolle Mineralien bleiben im Trinkwasser erhalten, während sich der Kalk nicht mehr an Rohren und Heizstäben festsetzen kann."
+ #             Die clevere, chemie- und salzfreie Alternative für Ihre Hausinstallation. Wertvolle Mineralien bleiben im Trinkwasser erhalten, während sich der Kalk nicht mehr an Rohren und Heizstäben festsetzen kann."
 ---
