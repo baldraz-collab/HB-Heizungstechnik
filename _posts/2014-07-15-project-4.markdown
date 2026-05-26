@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: 4_Wasserinstallation.png
+img: 4_Wasserinstallation.jpeg
 alt: image-alt
 #title: Enthärtunganlagen / Wasseraufbereitung
 #project-date: April 2014
