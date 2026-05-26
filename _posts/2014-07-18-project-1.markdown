@@ -4,14 +4,13 @@ modal-id: 1
 date: 2014-07-18
 img: 1_wärmepumpe.jpeg          # Das bleibt das Vorschaubild für die 6er-Übersicht
 alt: image-alt
-title: Wärmepumpen-Installation
+#title: Wärmepumpen-Installation
 
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 1_wp_wärmepumpe_fertig_front (1).jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
-    caption: "Luft-Wasser-Wärmepumpe:  
-
-              Der unkomplizierte Allrounder für Neubau und Modernisierung. Nutzt die kostenlose Umgebungsluft als Energiequelle und lässt sich flexibel sowie platzsparend aufstellen."
+    caption: "
+             Die Luft-Wasser-Wärmepumpe nutzt die kostenlose Umgebungsluft als Energiequelle und lässt sich flexibel sowie platzsparend aufstellen."
   - image: 1_wp_wärmepumpe_fertig_seite.jpeg
     caption: "Erdkollektor:  
 
@@ -20,8 +19,8 @@ album:
     caption: "Sondenbohrung:  
 
               Maximale Leistung auf minimalem Raum durch die Nutzung tiefer Erdschichten. Diese Premium-Lösung liefert ganzjährig höchste Effizienz, selbst an den kältesten Wintertagen."
-  - image: rot.png
-    caption: "Trinkwasserwärmepumpe:  
-
-             Die clevere Ergänzung zur bestehenden Heizung für die kostengünstige Warmwasserbereitung. Nutzt effizient die ohnehin vorhandene Umgebungswärme aus Ihrem Heizungskeller oder Waschraum."
+ # - image: rot.png
+  #  caption: "Trinkwasserwärmepumpe:  
+#
+#             Die clevere Ergänzung zur bestehenden Heizung für die kostengünstige Warmwasserbereitung. Nutzt effizient die ohnehin vorhandene Umgebungswärme aus Ihrem Heizungskeller oder Waschraum."
 ---

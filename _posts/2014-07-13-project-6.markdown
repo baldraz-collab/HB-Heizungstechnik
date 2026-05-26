@@ -2,28 +2,25 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: 5_bad.png
+img: 6_Heizungsinstallation.jpeg
 alt: image-alt
-title: Badsanierungen
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+#title: Badsanierungen
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 6_Fußbodenheizung_vorher-nacher.jpg 
-    caption: "Luxusbad:
-
-              Verwandeln Sie Ihr Badezimmer mit unserer Hilfe in eine exklusive Wellness-Oase. Edle Materialien, smarte Haustechnik und meisterhaftes Design für kompromisslose Ansprüche." 
+    caption: "
+              Fußbondenheizungen sind eine elegante und energieeffiziente Lösung für das beheizen von Räumen. Aufgrund ihrer niedrigen Temperatur sind sie Ideal für Wärmepumpen und Brennwertheizungen." 
               
-  - image: blau.png
-    caption: "Seniorengerecht oder Barrierefrei:
-
-              Komfortabel und Sicher auch im Alter. Wir helfen Ihnen mit durchdachten Raumkonzepten Ihr Bad um zu gestalten für ein selbstbestimmtes Leben ganz ohne Stolperfallen. Bodengleiche Duschen, Stützen, ausreichende Bewegungsflächen und Hygiene-WCs."
-  - image: grün.png
-    caption: "Teilsanierung:
-    
-              Frischer Wind ohne Komplettbaustelle: Vom schnellen Tausch der Badewanne zur begehbaren Dusche bis hin zu neuen Armaturen. Wir modernisieren Ihr Bad gezielt, zügig und staubarm."
-  - image: rot.png
-    caption: "ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird"
+  - image: 6_Rohrinstallation.jpeg
+    caption: " "
+ # - image: grün.png
+ #   caption: "Teilsanierung:
+ #   
+ #             Frischer Wind ohne Komplettbaustelle: Vom schnellen Tausch der Badewanne zur #begehbaren Dusche bis hin zu neuen Armaturen. Wir modernisieren Ihr Bad gezielt, zügig und #staubarm."
+ # - image: rot.png
+ #   caption: "ich versuche mal wie viel tex hier stehen kann und wo der überhaupt angezeigt wird"
 
 ---

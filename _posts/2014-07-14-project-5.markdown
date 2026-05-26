@@ -4,10 +4,10 @@ modal-id: 5
 date: 2014-07-14
 img: 5_Badezimmer.jpeg
 alt: image-alt
-title: Solanlagen Installation/Wartung
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+#title: Solanlagen Installation/Wartung
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 5_Badezimmer_vorher_nacher.png    # Meistens will man das Hauptbild auch in der Galerie haben

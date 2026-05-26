@@ -2,15 +2,15 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: 4_Enthartung.png
+img: 4_Wasserinstallation.png
 alt: image-alt
-title: Enthärtunganlagen / Wasseraufbereitung
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+#title: Enthärtunganlagen / Wasseraufbereitung
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 4_Enthartung.png    # Meistens will man das Hauptbild auch in der Galerie haben
+  - image: 4_Wasserinstallation.jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
 
     caption: "Enthärtungsanlage:
               Schützen Sie Rohrleitungen und Armaturen zuverlässig vor hartnäckigem Kalk. Genießen Sie seidenweiches Wasser, das Ihre Haushaltsgeräte schont und den Reinigungsaufwand spürbar minimiert."
