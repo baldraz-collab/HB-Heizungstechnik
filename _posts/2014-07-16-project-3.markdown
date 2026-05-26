@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: 3_pellets.png
+img: 3_Pelletkessel.png
 alt: image-alt
 title: " "
 project-date: April 2014
@@ -10,7 +10,7 @@ client: Start Bootstrap
 category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 3_pellets.png    # Meistens will man das Hauptbild auch in der Galerie haben
+  - image: 3_Pelletkessel_ohne.png    # Meistens will man das Hauptbild auch in der Galerie haben
     caption: "Pelletkessel
 
               Vollautomatischer Heizkomfort mit dem nachhaltigen Rohstoff Holz. Pellets werden aus den Abfällen der Sägewerke hergestellt und sind damit eine erneuerbare staatlich geförderte Lösung für das Heizen mit Holz ohne täglichen Aufwand."

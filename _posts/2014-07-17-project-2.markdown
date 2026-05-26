@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: 2_Klima.png
+img: 2_Klimaanlagen.png
 alt: image-alt
 title: " "
 #project-date: April 2014
@@ -10,8 +10,8 @@ title: " "
 #category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
-  - image: 2_Klima.png    # Meistens will man das Hauptbild auch in der Galerie haben
-    caption: "Wie sieht das aus?"
+  - image: 2_Klimaanlagen_ohne.png    # Meistens will man das Hauptbild auch in der Galerie haben
+    caption: "Klimaanlagen"
 #  - image: blau.png
 #    caption: "Wie sieht das aus?"
 #  - image: grün.png
