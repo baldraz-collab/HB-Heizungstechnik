@@ -5,9 +5,9 @@ date: 2014-07-16
 img: 3_Pelletkessel.png
 alt: image-alt
 title: " "
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 3_Pelletkessel_ohne.png    # Meistens will man das Hauptbild auch in der Galerie haben
@@ -21,15 +21,15 @@ album:
 #  - image: grün.png
 #    caption: "Kombi-Kessel:
 
-              Pellet & Scheitholz kombiniert für Flexibilität: Heizen Sie preiswert mit Stückholz oder wechseln Sie nahtlos auf den automatischen, bequemen Betrieb mit Pellets."
+ #             Pellet & Scheitholz kombiniert für Flexibilität: Heizen Sie preiswert mit Stückholz oder wechseln Sie nahtlos auf den automatischen, bequemen Betrieb mit Pellets."
 #  - image: rot.png
 #    caption: "Kaminofen:
 
-              Der zeitlose Klassiker für gemütliche Strahlungswärme und ein authentisches Holzfeuer-Knistern im Wohnraum. Ursprüngliches Heizen und eine ideale Zusatzwärme für Romantiker und Praktiker."
+ #             Der zeitlose Klassiker für gemütliche Strahlungswärme und ein authentisches Holzfeuer-Knistern im Wohnraum. Ursprüngliches Heizen und eine ideale Zusatzwärme für Romantiker und Praktiker."
 #  - image: rosa.png
 #    caption: "Pellet-Kaminofen:
     
-              Sichtbares Feuer-Ambiente für den Wohnbereich, clever kombiniert mit smarter Technik. Genießen Sie langanhaltende Wärme und vollautomatische Steuerung bequem auf Knopfdruck."
+ #             Sichtbares Feuer-Ambiente für den Wohnbereich, clever kombiniert mit smarter Technik. Genießen Sie langanhaltende Wärme und vollautomatische Steuerung bequem auf Knopfdruck."
 
 
 ---
