@@ -11,9 +11,9 @@ title: " "
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 5_Badezimmer_vorher_nacher.png    # Meistens will man das Hauptbild auch in der Galerie haben
-    caption: "Wir unterstützen Sie bei der Umsetzung ihres Wunschbades und organisieren die Arbeiten der anderen Gewerke so, dass einem reibungsfreien schnellem Ablauf nichts im Wege steht."
+   # caption: "Wir unterstützen Sie bei der Umsetzung ihres Wunschbades und organisieren die Arbeiten der anderen Gewerke so, dass einem reibungsfreien schnellem Ablauf nichts im Wege steht."
   - image: 5_Rohinstallation.jpeg
-    caption: "Die Sanitärinstallation wird von uns durchgeführt, sowie im gegebenen Fall auch die Installation eines Handtuchheizkörpers oder einer Fußbodenheizung."
+   # caption: "Die Sanitärinstallation wird von uns durchgeführt, sowie im gegebenen Fall auch die Installation eines Handtuchheizkörpers oder einer Fußbodenheizung."
  # - image: grün.png
  #   caption: "Wie sieht das aus?"
   #- image: rot.png

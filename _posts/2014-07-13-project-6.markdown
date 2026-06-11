@@ -11,11 +11,11 @@ title: " "
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 6_Fußbodenheizung_vorher-nacher.jpg 
-    caption: "
-              Fußbondenheizungen sind eine elegante und energieeffiziente Lösung für das beheizen von Räumen. Aufgrund ihrer niedrigen Temperatur sind sie Ideal für Wärmepumpen und Brennwertheizungen." 
+ #   caption: "
+ #             Fußbondenheizungen sind eine elegante und energieeffiziente Lösung für das beheizen von Räumen. Aufgrund ihrer niedrigen Temperatur sind sie Ideal für Wärmepumpen und Brennwertheizungen." 
               
   - image: 6_Rohrstrasse.jpeg
-    caption: " "
+ #   caption: " "
   #- image: grün.png
   #  caption: "Teilsanierung:
     

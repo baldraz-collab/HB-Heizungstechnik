@@ -11,9 +11,9 @@ title: " "
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 3_Pelletkessel_ohne.png    # Meistens will man das Hauptbild auch in der Galerie haben
-    caption: "Pelletkessel
+   # caption: "Pelletkessel
 
-              Vollautomatischer Heizkomfort mit dem nachhaltigen Rohstoff Holz. Pellets werden aus den Abfällen der Sägewerke hergestellt und sind damit eine erneuerbare staatlich geförderte Lösung für das Heizen mit Holz ohne täglichen Aufwand."
+   #           Vollautomatischer Heizkomfort mit dem nachhaltigen Rohstoff Holz. Pellets werden aus den Abfällen der Sägewerke hergestellt und sind damit eine erneuerbare staatlich geförderte Lösung für das Heizen mit Holz ohne täglichen Aufwand."
 #  - image: blau.png
 #    caption: "Holzvergaserkessel:
 

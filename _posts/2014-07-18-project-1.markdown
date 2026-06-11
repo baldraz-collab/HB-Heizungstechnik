@@ -9,16 +9,16 @@ title: " "
 # Hier fügst du die Galeriebilder hinzu:
 album:
   - image: 1_wp_wärmepumpe_fertig_front (1).jpeg    # Meistens will man das Hauptbild auch in der Galerie haben
-    caption: "
-             Die Luft-Wasser-Wärmepumpe nutzt die kostenlose Umgebungsluft als Energiequelle und lässt sich flexibel sowie platzsparend aufstellen."
+#    caption: "
+ #            ."
   - image: 1_wp_wärmepumpe_fertig_seite.jpeg
-    caption: "Erdkollektor:  
+ #   caption: "Erdkollektor:  
 
-              Höchste Effizienz durch konstante Erdwärme direkt aus Ihrem Garten. Die unsichtbar unter der Rasenfläche verlegten Rohrschleifen heizen Ihr Zuhause besonders stromsparend."
+ #             Höchste Effizienz durch konstante Erdwärme direkt aus Ihrem Garten. Die unsichtbar unter der Rasenfläche verlegten Rohrschleifen heizen Ihr Zuhause besonders stromsparend."
   - image: 1_wp_wärmepumpe_fundament.jpeg
-    caption: "Sondenbohrung:  
+ #   caption: "Sondenbohrung:  
 
-              Maximale Leistung auf minimalem Raum durch die Nutzung tiefer Erdschichten. Diese Premium-Lösung liefert ganzjährig höchste Effizienz, selbst an den kältesten Wintertagen."
+ #             Maximale Leistung auf minimalem Raum durch die Nutzung tiefer Erdschichten. Diese Premium-Lösung liefert ganzjährig höchste Effizienz, selbst an den kältesten Wintertagen."
  # - image: rot.png
   #  caption: "Trinkwasserwärmepumpe:  
 #
