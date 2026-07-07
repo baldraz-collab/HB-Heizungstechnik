@@ -9,7 +9,7 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <form action="https://formcarry.com/s/6rOhqjXKugz" method="POST" name="sentMessage" id="contactForm" novalidate>
+<form action="https://formcarry.com/s/6rOhqjXKugz" method="POST" name="sentMessage" id="contactForm" novalidate>
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Name</label>
@@ -26,7 +26,51 @@
               <p class="help-block text-danger"></p>
             </div>
           </div>
-          <div>
+          
+          <div class="row">
+            <div class="form-group col-xs-12" style="padding-top: 15px;">
+              <button type="submit" class="btn btn-success btn-lg">Senden</button>
+            </div>
+          </div>
+        </form>
+
+        <div id="formSuccessMessage" style="display: none; text-align: center; padding: 30px 10px;">
+          <h3 style="color: #2c3e50; font-size: 2em;">
+            <i class="fa fa-check-circle" style="color: #B22222; margin-bottom: 10px;"></i><br>
+            Vielen Dank!
+          </h3>
+          <p style="font-size: 1.2em; color: #7f8c8d;">
+            Ihre Nachricht wurde erfolgreich versendet.<br>Wir melden uns in Kürze bei Ihnen.
+          </p>
+        </div>
+
+        <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          var form = this;
+          var formData = new FormData(form);
+          var xhr = new XMLHttpRequest();
+          
+          xhr.open('POST', form.action, true);
+          xhr.setRequestHeader('Accept', 'application/json');
+          
+          xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+              if (xhr.status === 200) {
+                // Versteckt das Formular
+                form.style.display = 'none';
+                // Zeigt die Erfolgsmeldung an
+                document.getElementById('formSuccessMessage').style.display = 'block';
+              } else {
+                alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
+              }
+            }
+          };
+          
+          xhr.send(formData);
+        });
+        </script>
             <input type="hidden" name="_subject" value="New submission!">
             <input type="text" name="_gotcha" style="display:none" />
           </div>
