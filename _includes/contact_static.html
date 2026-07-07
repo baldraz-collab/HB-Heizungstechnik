@@ -40,33 +40,57 @@
           </p>
         </div>
 
-        <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-          e.preventDefault();
-          
-          var form = this;
-          var formData = new FormData(form);
-          var xhr = new XMLHttpRequest();
-          
-          xhr.open('POST', form.action, true);
-          xhr.setRequestHeader('Accept', 'application/json');
-          
-          xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-              if (xhr.status === 200) {
-                // Versteckt das Formular
-                form.style.display = 'none';
-                // Zeigt die Erfolgsmeldung an
-                document.getElementById('formSuccessMessage').style.display = 'block';
-              } else {
-                alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
-              }
-            }
-          };
-          
-          xhr.send(formData);
-        });
-        </script>
+     <script>
+// 1. Hier hinterlegen wir die Funktion, die du von Google bekommen hast
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  // Überprüft, ob Google Analytics/gtag überhaupt geladen ist, um Fehler zu vermeiden
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18189959561/O-AoCJj2kcwcEImD0-FD',
+        'event_callback': callback
+    });
+  } else {
+    // Falls gtag nicht geladen ist (z.B. durch Werbeblocker), wird der Callback direkt ausgeführt
+    callback();
+  }
+  return false;
+}
+
+// 2. Hier ist die Logik für dein Formular
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var form = this;
+  var formData = new FormData(form);
+  var xhr = new XMLHttpRequest();
+  
+  xhr.open('POST', form.action, true);
+  xhr.setRequestHeader('Accept', 'application/json');
+  
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        // Formular verstecken & Danke-Text anzeigen
+        form.style.display = 'none';
+        document.getElementById('formSuccessMessage').style.display = 'block';
+        
+        // HIER WIRD GOOGLE JETZT BENACHRICHTIGT:
+        gtag_report_conversion();
+        
+      } else {
+        alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
+      }
+    }
+  };
+  
+  xhr.send(formData);
+});
+</script>
             <input type="hidden" name="_subject" value="New submission!">
             <input type="text" name="_gotcha" style="display:none" />
           </div>
