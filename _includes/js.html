@@ -24,3 +24,24 @@
 <!-- Disqus Stuff -->
 {% include js_disqus.html %}
 {% endif %}
+
+<script>
+// Spezielles Skript nur für den Telefonanruf-Klick
+function gtag_report_conversion_call(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+        // HIER DEINE ANRUF-ID VON GOOGLE EINTRAGEN (NICHT die vom Formular!)
+        'send_to': 'AW-18189959561/FzKGCLaypcwcEImD0-FD',
+        'event_callback': callback
+    });
+  } else {
+    callback();
+  }
+  return false;
+}
+</script>
