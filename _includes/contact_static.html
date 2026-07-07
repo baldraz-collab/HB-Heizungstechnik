@@ -1,4 +1,3 @@
-<!-- Contact Section -->
 <section id="contact">
   <div class="container">
     <div class="row">
@@ -7,9 +6,12 @@
         <hr class="star-primary">
       </div>
     </div>
+    
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-<form action="https://formcarry.com/s/6rOhqjXKugz" method="POST" name="sentMessage" id="contactForm" novalidate>
+        
+        <form action="https://formcarry.com/s/6rOhqjXKugz" method="POST" name="sentMessage" id="contactForm" novalidate>
+          
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Name</label>
@@ -18,6 +20,7 @@
               <p class="help-block text-danger"></p>
             </div>
           </div>
+          
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="email">Email Address</label>
@@ -27,9 +30,28 @@
             </div>
           </div>
           
-    
+          <input type="hidden" name="_subject" value="New submission!">
+          <input type="text" name="_gotcha" style="display:none" />
+          
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required
+                data-validation-required-message="Please enter a message."></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          
+          <br>
+          <div id="success"></div>
+          
+          <div class="row">
+            <div class="form-group col-xs-12">
+              <button type="submit" class="btn btn-success btn-lg">Send</button>
+            </div>
+          </div>
+          
         </form>
-
         <div id="formSuccessMessage" style="display: none; text-align: center; padding: 30px 10px;">
           <h3 style="color: #2c3e50; font-size: 2em;">
             <i class="fa fa-check-circle" style="color: #B22222; margin-bottom: 10px;"></i><br>
@@ -40,76 +62,57 @@
           </p>
         </div>
 
-     <script>
-// 1. Hier hinterlegen wir die Funktion, die du von Google bekommen hast
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  // Überprüft, ob Google Analytics/gtag überhaupt geladen ist, um Fehler zu vermeiden
-  if (typeof gtag === 'function') {
-    gtag('event', 'conversion', {
-        'send_to': 'AW-18189959561/O-AoCJj2kcwcEImD0-FD',
-        'event_callback': callback
-    });
-  } else {
-    // Falls gtag nicht geladen ist (z.B. durch Werbeblocker), wird der Callback direkt ausgeführt
-    callback();
-  }
-  return false;
-}
+        <script>
+        // 1. Google Ads Conversion Funktion
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          if (typeof gtag === 'function') {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18189959561/O-AoCJj2kcwcEImD0-FD',
+                'event_callback': callback
+            });
+          } else {
+            callback();
+          }
+          return false;
+        }
 
-// 2. Hier ist die Logik für dein Formular
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  
-  var form = this;
-  var formData = new FormData(form);
-  var xhr = new XMLHttpRequest();
-  
-  xhr.open('POST', form.action, true);
-  xhr.setRequestHeader('Accept', 'application/json');
-  
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === XMLHttpRequest.DONE) {
-      if (xhr.status === 200) {
-        // Formular verstecken & Danke-Text anzeigen
-        form.style.display = 'none';
-        document.getElementById('formSuccessMessage').style.display = 'block';
-        
-        // HIER WIRD GOOGLE JETZT BENACHRICHTIGT:
-        gtag_report_conversion();
-        
-      } else {
-        alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
-      }
-    }
-  };
-  
-  xhr.send(formData);
-});
-</script>
-            <input type="hidden" name="_subject" value="New submission!">
-            <input type="text" name="_gotcha" style="display:none" />
-          </div>
-          <div class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required
-                data-validation-required-message="Please enter a message."></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <br>
-          <div id="success"></div>
-          <div class="row">
-            <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
-            </div>
-          </div>
-        </form>
+        // 2. Formcarry Hintergrund-Versand
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          var form = this;
+          var formData = new FormData(form);
+          var xhr = new XMLHttpRequest();
+          
+          xhr.open('POST', form.action, true);
+          xhr.setRequestHeader('Accept', 'application/json');
+          
+          xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+              if (xhr.status === 200) {
+                // Formular ausblenden
+                form.style.display = 'none';
+                // Danke-Text einblenden
+                document.getElementById('formSuccessMessage').style.display = 'block';
+                
+                // Google Ads informieren
+                gtag_report_conversion();
+                
+              } else {
+                alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
+              }
+            }
+          };
+          
+          xhr.send(formData);
+        });
+        </script>
+
       </div>
     </div>
   </div>
