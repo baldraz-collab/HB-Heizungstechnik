@@ -47,7 +47,7 @@
           
           <div class="row">
             <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
+              <button type="submit" onclick="gtag_report_conversion();" class="btn btn-success btn-lg">Send</button>
             </div>
           </div>
           
@@ -63,55 +63,49 @@
         </div>
 
         <script>
-        // 1. Google Ads Conversion Funktion
-        function gtag_report_conversion(url) {
-          var callback = function () {
-            if (typeof(url) != 'undefined') {
-              window.location = url;
-            }
-          };
-          if (typeof gtag === 'function') {
-            gtag('event', 'conversion', {
-                'send_to': 'AW-18189959561/O-AoCJj2kcwcEImD0-FD',
-                'event_callback': callback
-            });
-          } else {
-            callback();
-          }
-          return false;
-        }
+// 1. Die reine Google-Funktion (wird sofort beim Button-Klick aktiv)
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18189959561/O-AoCJj2kcwcEImD0-FD',
+        'event_callback': callback
+    });
+  } else {
+    callback();
+  }
+  return false;
+}
 
-        // 2. Formcarry Hintergrund-Versand
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-          e.preventDefault();
-          
-          var form = this;
-          var formData = new FormData(form);
-          var xhr = new XMLHttpRequest();
-          
-          xhr.open('POST', form.action, true);
-          xhr.setRequestHeader('Accept', 'application/json');
-          
-          xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-              if (xhr.status === 200) {
-                // Formular ausblenden
-                form.style.display = 'none';
-                // Danke-Text einblenden
-                document.getElementById('formSuccessMessage').style.display = 'block';
-                
-                // Google Ads informieren
-                gtag_report_conversion();
-                
-              } else {
-                alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
-              }
-            }
-          };
-          
-          xhr.send(formData);
-        });
-        </script>
+// 2. Der reine Formcarry-Versand
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var form = this;
+  var formData = new FormData(form);
+  var xhr = new XMLHttpRequest();
+  
+  xhr.open('POST', form.action, true);
+  xhr.setRequestHeader('Accept', 'application/json');
+  
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        form.style.display = 'none';
+        document.getElementById('formSuccessMessage').style.display = 'block';
+      } else {
+        alert('Hoppla! Da ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.');
+      }
+    }
+  };
+  
+  xhr.send(formData);
+});
+</script>
 
       </div>
     </div>
